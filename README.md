@@ -10,7 +10,7 @@ This project checks the position of the International Space Station (ISS) and, i
 ### Key APIs Used:
 1. **User's Position**: [https://www.latlong.net/](https://www.latlong.net/)
 2. **ISS Position**: [http://api.open-notify.org/iss-now.json](http://api.open-notify.org/iss-now.json)
-3. **Sunrise and Sunset Times**: [https://api.sunrise-sunset.org/json](https://api.sunrise-sunset.org/json)
+3. **Sunrise and Sunset Times**: [https://api.sunrise-sunset.org/json](https://api.sunrise-sunset.org/json) Here need to give required parameters, please check app.py file for this.
 
 ### Core Functions:
 1. **check_iss_dist()**: Determines if the ISS is within +5 or -5 degrees of the user's latitude and longitude.
